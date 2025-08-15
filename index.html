@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Empresa Profesional</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <!-- Checkbox para el menú hamburguesa -->
+    <input type="checkbox" id="menu-toggle" />
+
+    <!-- Cabecera con navegación -->
+    <header class="header">
+      <div class="nav-container">
+        <!-- Logo de la empresa -->
+        <div class="logo">
+          <img src="imagen/LOGO.jpg" alt="Logo Mi Empresa" class="logo-icono" />
+          <span>Mi Empresa</span>
+        </div>
+        <!-- Menú de navegación -->
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+        <!-- Botón hamburguesa para móviles -->
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+      <!-- Sección principal de inicio -->
+      <section id="inicio" class="empresarial">
+        <div class="empresarial-content">
+          <div class="empresarial-texto">
+            <h1>
+              Soluciones <span class="destacado">Empresariales</span> de Calidad
+            </h1>
+            <p>
+              Ofrecemos servicios profesionales para hacer crecer tu negocio con
+              experiencia y dedicación.
+            </p>
+            <div class="botones-cta">
+              <a href="#contacto" class="btn btn-principal">Contáctanos</a>
+              <a href="#servicios" class="btn btn-secundario">Ver Servicios</a>
+            </div>
+          </div>
+          <div class="empresarial-imagen">
+            <div class="empresarial-imagen">
+              <img
+                src="imagen/trabajadores 1.jpeg"
+                alt="Equipo empresarial"
+                class="imagen-principal"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de servicios -->
+      <section id="servicios" class="servicios">
+        <div class="container">
+          <div class="titulo-seccion">
+            <h2>Nuestros Servicios</h2>
+            <p>Brindamos soluciones completas para tu empresa</p>
+          </div>
+          <div class="servicios-grid">
+            <div class="servicio-card">
+              <div class="servicio-numero">1</div>
+              <h3>Consultoría Empresarial</h3>
+              <p>
+                Analizamos tu negocio y te ayudamos a crear estrategias
+                efectivas para el crecimiento.
+              </p>
+            </div>
+            <div class="servicio-card">
+              <div class="servicio-numero">2</div>
+              <h3>Tecnología Digital</h3>
+              <p>
+                Implementamos herramientas digitales modernas para optimizar tus
+                procesos.
+              </p>
+            </div>
+            <div class="servicio-card">
+              <div class="servicio-numero">3</div>
+              <h3>Capacitación</h3>
+              <p>
+                Entrenamos a tu equipo de trabajo para mejorar la productividad
+                y eficiencia.
+              </p>
+            </div>
+            <div class="servicio-card">
+              <div class="servicio-numero">4</div>
+              <h3>Soporte Continuo</h3>
+              <p>
+                Te acompañamos en todo el proceso con atención personalizada las
+                24 horas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección acerca de nosotros -->
+      <section id="nosotros" class="nosotros">
+        <div class="container">
+          <div class="nosotros-content">
+            <div class="nosotros-texto">
+              <h2>Acerca de Nuestra Empresa</h2>
+              <p>
+                Somos una empresa con más de 10 años de experiencia ayudando a
+                negocios a crecer y prosperar en el mercado actual.
+              </p>
+              <p>
+                Nuestro compromiso es brindar servicios de alta calidad con un
+                enfoque personalizado para cada cliente.
+              </p>
+            </div>
+            <div class="nosotros-imagen">
+              <div class="nosotros-imagen">
+                <img
+                  src="imagen/sobre nuestra empresa.jpg"
+                  alt="Nuestra oficina"
+                  class="imagen-nosotros"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Misión y visión -->
+          <div class="mision-vision">
+            <div class="mv-card">
+              <h3>Nuestra Misión</h3>
+              <p>
+                Proporcionar soluciones empresariales innovadoras que impulsen
+                el éxito de nuestros clientes.
+              </p>
+            </div>
+            <div class="mv-card">
+              <h3>Nuestra Visión</h3>
+              <p>
+                Ser la empresa líder en consultoría, reconocida por nuestra
+                excelencia y compromiso.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de contacto -->
+      <section id="contacto" class="contacto">
+        <div class="container">
+          <div class="contacto-content">
+            <div class="contacto-info">
+              <h2>Contáctanos</h2>
+              <p>
+                Estamos aquí para ayudarte. Ponte en contacto con nosotros y
+                conversemos sobre tu proyecto.
+              </p>
+              <div class="info-empresa">
+                <p><strong>Teléfono:</strong> +51 969 726 416</p>
+                <p><strong>Email:</strong> elizabeth.choyc@istpargentina.edu.pe</p>
+                <p><strong>Dirección:</strong> Av. Principal 123, Lima, Perú</p>
+              </div>
+            </div>
+            <div class="contacto-form">
+              <form>
+                <div class="form-fila">
+                  <div class="form-grupo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required />
+                  </div>
+                  <div class="form-grupo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                  </div>
+                </div>
+                <div class="form-grupo">
+                  <label for="empresa">Empresa</label>
+                  <input type="text" id="empresa" name="empresa" />
+                </div>
+                <div class="form-grupo">
+                  <label for="mensaje">Mensaje</label>
+                  <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+        <p>Desarrollado con ❤️ para el éxito de tu negocio</p>
+      </div>
+    </footer>
+  </body>
+</html>
